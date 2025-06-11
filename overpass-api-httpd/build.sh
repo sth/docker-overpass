@@ -16,7 +16,7 @@ popd
 
 pushd overpass
 mkdir -p db
-strip bin/*
-strip cgi-bin/*
+strip bin/* || true
+strip cgi-bin/* || true
 popd
 
