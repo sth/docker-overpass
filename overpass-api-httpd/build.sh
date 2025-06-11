@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -e
 
 wget https://dev.overpass-api.de/releases/osm-3s_latest.tar.gz
 gunzip <osm-3s_latest.tar.gz | tar x
